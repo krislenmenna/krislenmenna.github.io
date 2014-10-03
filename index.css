@@ -1,0 +1,172 @@
+/* CSS reset */
+* {
+        margin:0;
+        padding:0;
+        list-style:none;
+        vertical-align:baseline;
+ 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+	width: 100%;
+} 
+
+
+
+#header {
+	background-color: #FFF;
+}
+
+#portfolio {
+	padding-left: 100px;
+	font-size: 72px;
+	font-weight: 100;
+}
+
+#krika {
+	font-size: 72px;
+	font-weight: 200;
+	padding-left: 200px;
+}
+
+#content {
+	width:100%;
+}
+
+.description {
+	padding-top: 30px;
+	line-height: 1.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 500px;
+	color: white;
+}
+
+
+.description h2 	{
+	font-size: 36px;
+}
+
+.description p {
+	font-size: 20px;
+}
+
+
+/* =================================  */
+#containerGato {
+	overflow: auto;
+	background-color: #F79832;
+	width: 100%;
+	padding: 80px; 
+}
+
+
+#imgGato {
+	float: left;
+	height: 300px;
+	display: block;
+	margin-left: 10%;
+	/*background-color: white;*/
+	border-radius: 30px;
+}
+
+#descriptionGato {
+	float: right;
+	padding-top: 30px;
+	line-height: 1.5;
+	display: block;
+	text-align: left;
+	width: 500px;
+	color: white;
+}
+
+#descriptionGato h1 {
+	display: block;
+}
+
+#descriptionGato h2 {
+	font-size: 36px;
+}
+
+#descriptionGato p {
+	font-size: 20px;
+}
+
+
+/* =================================  */
+#containerCiranda {
+	overflow: auto;
+	background-color: #A8CF45;
+	width: 100%;
+	padding: 80px; 
+}
+
+#imgCiranda {
+	height: 350px;
+	padding: 17px;
+	display: block;
+	float: right;
+}
+#descriptionCiranda {
+	float: left;
+	padding-top: 30px;
+	line-height: 1.5;
+	display: block;
+	text-align: right;
+	width: 500px;
+	color: white;
+}
+
+#descriptionCiranda h1 {
+	display: block;
+}
+
+#descriptionCiranda h2 {
+	font-size: 36px;
+}
+
+#descriptionCiranda p {
+	font-size: 20px;
+}
+
+
+
+/* =================================  */
+#containerCubo {
+	overflow: auto;
+	background-color: #055F5C;
+	width: 100%;
+	padding: 80px; 
+}
+
+#imgCubo {
+	height: 300px;
+	padding: 17px;
+	display: block;
+	float: left;
+	border-radius: 30px;
+	padding-left: 10%;
+}
+
+
+
+#containerContato {
+	padding-top: 5px;
+	float: right;
+	padding-right: 20px;
+}
+
+h3 {
+	padding-bottom: 5px;
+	font-weight: 200;
+	font-size: 20px;
+	text-align: right;
+}
