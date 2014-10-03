@@ -69,7 +69,7 @@ body {
 /* =================================  */
 #containerGato {
 	overflow: auto;
-	background-color: #F79832;
+	background-color: #FF5850;
 	width: 100%;
 	padding: 80px; 
 }
@@ -112,7 +112,7 @@ body {
 /* =================================  */
 #containerCiranda {
 	overflow: auto;
-	background-color: #A8CF45;
+	background-color: #FCB040;
 	width: 100%;
 	padding: 80px; 
 }
@@ -196,7 +196,7 @@ body {
 /* =================================  */
 #containerBttf {
 	overflow: auto;
-	background-color: #C53737;
+	background-color: #D2D945;
 	width: 100%;
 	padding: 80px; 
 }
@@ -245,7 +245,7 @@ body {
 
 h3 {
 	padding-bottom: 5px;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 20px;
 	text-align: right;
 }
