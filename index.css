@@ -18,21 +18,26 @@ body {
 } 
 
 
-
 #header {
 	background-color: #FFF;
+	height: 660px;
 }
 
-#portfolio {
-	padding-left: 100px;
-	font-size: 72px;
-	font-weight: 100;
+
+#sunset {
+	width: 100%;
 }
+
+
 
 #krika {
 	font-size: 72px;
 	font-weight: 200;
 	padding-left: 200px;
+	position: absolute; 
+  	top: 200px; 
+  	left: 0; 
+ 	width: 100%; 
 }
 
 #content {
@@ -71,11 +76,12 @@ body {
 
 #imgGato {
 	float: left;
-	height: 300px;
+	height: 280px;
 	display: block;
-	margin-left: 10%;
+	margin-left: 14%;
 	/*background-color: white;*/
 	border-radius: 30px;
+
 }
 
 #descriptionGato {
@@ -84,8 +90,9 @@ body {
 	line-height: 1.5;
 	display: block;
 	text-align: left;
-	width: 500px;
+	width: 400px;
 	color: white;
+	margin-right: 80px;
 }
 
 #descriptionGato h1 {
@@ -110,8 +117,9 @@ body {
 }
 
 #imgCiranda {
-	height: 350px;
+	height: 305px;
 	padding: 17px;
+	padding-right: 50px; 
 	display: block;
 	float: right;
 }
@@ -123,6 +131,8 @@ body {
 	text-align: right;
 	width: 500px;
 	color: white;
+	padding-left: 10%;
+	margin-left: 100px;
 }
 
 #descriptionCiranda h1 {
@@ -153,7 +163,7 @@ body {
 	display: block;
 	float: left;
 	border-radius: 30px;
-	padding-left: 10%;
+	padding-left: 15%;
 }
 
 
