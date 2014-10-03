@@ -79,7 +79,7 @@ body {
 	float: left;
 	height: 280px;
 	display: block;
-	margin-left: 14%;
+	margin-left: 11%;
 	/*background-color: white;*/
 	border-radius: 30px;
 
@@ -93,7 +93,7 @@ body {
 	text-align: left;
 	width: 400px;
 	color: white;
-	margin-right: 80px;
+	margin-right: 84px;
 }
 
 #descriptionGato h1 {
@@ -120,7 +120,7 @@ body {
 #imgCiranda {
 	height: 275px;
 	padding: 17px;
-	padding-right: 50px; 
+	padding-right: 70px; 
 	display: block;
 	float: right;
 }
@@ -131,8 +131,8 @@ body {
 	text-align: right;
 	width: 500px;
 	color: white;
-	padding-left: 10%;
-	margin-left: 100px;
+	padding-left: 8%;
+	margin-left: 70px;
 }
 
 #descriptionCiranda h1 {
@@ -167,7 +167,7 @@ body {
 	display: block;
 	float: left;
 	border-radius: 30px;
-	padding-left: 15%;
+	padding-left: 8%;
 }
 
 #descriptionCubo {
@@ -178,7 +178,7 @@ body {
 	text-align: left;
 	width: 400px;
 	color: white;
-	margin-right: 80px;
+	margin-right: 84px;
 }
 
 #descriptionCubo h1 {
@@ -193,6 +193,47 @@ body {
 	font-size: 20px;
 }
 
+/* =================================  */
+#containerBttf {
+	overflow: auto;
+	background-color: #C53737;
+	width: 100%;
+	padding: 80px; 
+}
+
+#imgBttf {
+	height: 275px;
+	padding: 17px;
+	padding-right: 168px; 
+	display: block;
+	float: right;
+}
+#descriptionBttf {
+	float: left;
+	padding-top: 57px;
+	display: block;
+	text-align: right;
+	width: 500px;
+	color: white;
+	padding-left: 10%;
+	margin-left: 55px;
+}
+
+#descriptionBttf h1 {
+	display: block;	
+	line-height: 1.5;
+}
+
+#descriptionBttf h2 {
+	font-size: 36px;
+	line-height: normal;
+	padding-bottom: 5px;
+}
+
+#descriptionBttf p {
+	font-size: 20px;
+	line-height: 1.5;
+}
 /* =================================  */
 
 
