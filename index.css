@@ -35,8 +35,7 @@ body {
 	padding-left: 200px;
 	position: absolute; 
   	top: 200px; 
-  	left: 500px; 
- 	width: 100%; 
+  	left: 500px;  
  	color: white;
 }
 
@@ -195,7 +194,7 @@ body {
 /* =================================  */
 #containerBttf {
 	overflow: auto;
-	background-color: #D2D945;
+	background-color: #A4C400;
 	width: 100%;
 	padding: 80px; 
 }
@@ -235,6 +234,47 @@ body {
 }
 /* =================================  */
 
+#containerNatal {
+	overflow: auto;
+	background-color: #0DB4CA;
+	width: 100%;
+	padding: 80px; 
+}
+
+
+#imgNatal {
+	float: left;
+	height: 280px;
+	display: block;
+	margin-left: 11%;
+	/*background-color: white;*/
+	
+
+}
+
+#descriptionNatal {
+	float: right;
+	padding-top: 30px;
+	line-height: 1.5;
+	display: block;
+	text-align: left;
+	width: 400px;
+	color: white;
+	margin-right: 84px;
+}
+
+#descriptionNatal h1 {
+	display: block;
+}
+
+#descriptionNatal h2 {
+	font-size: 36px;
+}
+
+#descriptionNatal p {
+	font-size: 20px;
+}
+/* =================================  */
 
 #containerContato {
 	padding-top: 5px;
