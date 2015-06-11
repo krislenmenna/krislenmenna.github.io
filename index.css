@@ -28,7 +28,6 @@ body {
 }
 
 
-
 #krika {
 	font-size: 72px;
 	font-weight: 200;
@@ -274,8 +273,92 @@ body {
 #descriptionNatal p {
 	font-size: 20px;
 }
+
+/* =================================  */
+#containerAbc {
+	overflow: auto;
+	background-color: #FFF;
+	width: 100%;
+	padding: 80px; 
+}
+
+#imgAbc {
+	height: 275px;
+	padding-right: 168px; 
+	display: block;
+	float: right;
+}
+#descriptionAbc {
+	float: left;
+	padding-top: 57px;
+	display: block;
+	text-align: right;
+	width: 500px;
+	color: black;
+	padding-left: 10%;
+	margin-left: 55px;
+}
+
+#descriptionAbc h1 {
+	display: block;	
+	line-height: 1.5;
+}
+
+#descriptionAbc h2 {
+	font-size: 36px;
+	line-height: normal;
+	padding-bottom: 5px;
+}
+
+#descriptionAbc p {
+	font-size: 20px;
+	line-height: 1.5;
+}
 /* =================================  */
 
+
+#containerBox {
+	overflow: auto;
+	background-color: #F6F6F6;
+	width: 100%;
+	padding: 80px; 
+}
+
+
+#imgBox {
+	float: left;
+	height: 280px;
+	display: block;
+	margin-left: 11%;
+	/*background-color: white;*/
+	
+
+}
+
+#descriptionBox {
+	float: right;
+	padding-top: 30px;
+	line-height: 1.5;
+	display: block;
+	text-align: left;
+	width: 400px;
+	color: black;
+	margin-right: 84px;
+}
+
+#descriptionBox h1 {
+	display: block;
+}
+
+#descriptionBox h2 {
+	font-size: 36px;
+}
+
+#descriptionBox p {
+	font-size: 20px;
+}
+
+/* =================================  */
 #containerContato {
 	padding-top: 5px;
 	float: right;
