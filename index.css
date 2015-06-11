@@ -19,7 +19,7 @@ body {
 
 
 #header {
-	background-color: #FF5850;
+	background-color: #EFEFEF;
 }
 
 
@@ -316,48 +316,102 @@ body {
 }
 /* =================================  */
 
-
-#containerBox {
+#containerTardis {
 	overflow: auto;
-	background-color: #F6F6F6;
+	background-color: #162330;
 	width: 100%;
 	padding: 80px; 
 }
 
 
-#imgBox {
+#imgTardis {
 	float: left;
-	height: 280px;
+	height: 270px;
 	display: block;
-	margin-left: 11%;
+	margin-left: 9%;
 	/*background-color: white;*/
-	
+	border-radius: 5px;
 
 }
 
-#descriptionBox {
+#descriptionTardis {
 	float: right;
 	padding-top: 30px;
 	line-height: 1.5;
 	display: block;
 	text-align: left;
 	width: 400px;
-	color: black;
+	color: white;
 	margin-right: 84px;
 }
 
-#descriptionBox h1 {
+#descriptionTardis h1 {
 	display: block;
+}
+
+#descriptionTardis h2 {
+	font-size: 36px;
+}
+
+#descriptionTardis p {
+	font-size: 20px;
+}
+
+#descriptionTardis a:link { 
+  color: white;
+}
+#descriptionTardis a:visited {
+  color: white;
+}
+#descriptionTardis a:hover {
+  color: white;
+}
+#descriptionTardis a:active {
+  color: white;
+}
+
+/* =================================  */
+
+
+#containerBox {
+	overflow: auto;
+	background-color: #EFEFEF;
+	width: 100%;
+	padding: 80px; 
+}
+
+#imgBox {
+	height: 253px;
+	padding-right: 110px; 
+	display: block;
+	float: right;
+}
+#descriptionBox {
+	float: left;
+	padding-top: 57px;
+	display: block;
+	text-align: right;
+	width: 500px;
+	color: black;
+	padding-left: 10%;
+	margin-left: 55px;
+}
+
+#descriptionBox h1 {
+	display: block;	
+	line-height: 1.5;
 }
 
 #descriptionBox h2 {
 	font-size: 36px;
+	line-height: normal;
+	padding-bottom: 5px;
 }
 
 #descriptionBox p {
 	font-size: 20px;
+	line-height: 1.5;
 }
-
 /* =================================  */
 #containerContato {
 	padding-top: 5px;
